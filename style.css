@@ -1,0 +1,94 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.dark-blue-box{
+  margin: 0em;
+  background-color: darkblue;
+  border: 3px solid black;
+  font-size: 30pt ;
+  padding-top: 1em;
+  padding-bottom: .25em;
+  text-align: center;
+}
+
+.d-flex-space-between{
+display: flex;
+justify-content: space-between;
+}
+
+.aside-box{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  order: 1;
+  justify-content: flex-end;
+  margin: auto;
+  margin-right: 5em;
+  margin-top: 5em;
+}
+
+.image{
+  margin: 1em;
+  min-width: 5%;
+}
+
+.footer{
+  margin-top: 1em;
+  display: flex;
+  align-self: flex-end;
+  padding: 15em;
+}
+
+.text-bold{
+  font-weight: 800;
+}
+.text-large{
+  font-size: larger;
+  margin: auto;
+}
+
+.text-largest{
+  font-size: x-large;
+}
+
+.text-center{
+  text-align: center;
+  margin: 1em;
+}
+
+.text-micro{
+  font-size: 3pt;
+  font-weight: 100;
+}
+
+.box-center{
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.margin-center{
+  width: 50%;
+  margin: auto;
+  margin-left: +15em;
+}
+
+
+.medium-blue-box{
+  background-color: royalblue;
+}
+
+
+.light-blue-box{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: skyblue;
+  margin-left: +15em;
+  padding: 1em;
+}
+
+.white-text{
+  color: white;
+}
